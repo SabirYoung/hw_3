@@ -26,7 +26,7 @@ list($userName, $userGender, $userAge, $userType, $userOs, $userMin, $userMax) =
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matches</title>
-    <link rel="stylesheet" href="/css/nerdieluv.css">
+    <link rel="stylesheet" href="nerdieluv.css">
 </head>
 
 <body>

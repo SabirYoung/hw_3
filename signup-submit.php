@@ -29,7 +29,7 @@ file_put_contents($file_path, $new_user_data, FILE_APPEND | LOCK_EX);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> signup-submit</title>
-    <link rel="stylesheet" href="/css/nerdieluv.css">
+    <link rel="stylesheet" href="nerdieluv.css">
 </head>
 
 <body>
