@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, #ff0000 0%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    height: 80vh;              /* gives space to center vertically */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
+
+.matches-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.match-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.match-card img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+}
+
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #56bad3;
+    color: white;
+    border-radius: 5px;
+}
+
+
